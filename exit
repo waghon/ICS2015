@@ -1,0 +1,1655 @@
+[33mcommit 353e92218385cea1a76a7aef6658e0aac301a91b[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Mon Sep 21 05:19:09 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:19:09 up  1:33,  1 user,  load average: 0.00, 0.03, 0.05
+    1e335ad1f57aee43ddfdb4d1f1e5cb1e2cc4a505
+
+[33mcommit e121c61309257558d70fc823c3e48159303c40d0[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Mon Sep 21 05:15:32 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:15:32 up  1:30,  1 user,  load average: 0.10, 0.04, 0.04
+    764924a21a4fc3787287d7a2dd6b545cbca9c121
+
+[33mcommit f5aaacee4cc9c05ac1c95bbcc02aeee5b70271b3[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Mon Sep 21 05:15:32 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:15:32 up  1:30,  1 user,  load average: 0.10, 0.04, 0.04
+    6b4abe177fa29b967077ef347dfb2885451884df
+
+[33mcommit 02e472a5713296ae96e6d1bff68a30477b4db323[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Mon Sep 21 04:38:26 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:38:26 up 53 min,  1 user,  load average: 0.08, 0.03, 0.03
+    5bb5faee902e0aebc0d66bf8754b41687bf4b417
+
+[33mcommit cd070da7dc79536bab62c1a28cfe07a7c2a2a401[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Mon Sep 21 04:36:45 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:36:45 up 51 min,  1 user,  load average: 0.00, 0.01, 0.03
+    c935ea667e0d02963db80aef2aa46c261a9a1cd5
+
+[33mcommit e55faddb3830895d344707cc5f5453e3aa8feb12[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Mon Sep 21 03:55:59 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     03:55:59 up 10 min,  1 user,  load average: 0.08, 0.03, 0.02
+    bb7755bb6b4b35302e7c97ec66bc69c3b5aaf322
+
+[33mcommit 9463f1c9fad4df041538f30bda01898bb8be5d6c[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Mon Sep 21 03:55:59 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     03:55:59 up 10 min,  1 user,  load average: 0.08, 0.03, 0.02
+    2f0be7a7c8c36f531708a524fbacc7f0ed6c262b
+
+[33mcommit 488e8926e41bb721b2eff7481d79acc6b597a6bd[m
+Merge: 3cf990c 733c316
+Author: 141220111-Wei Yue <316382810@qq.com>
+Date:   Mon Sep 21 03:46:18 2015 -0400
+
+    Merge branch 'master' of https://github.com/nju-ics/ics2015
+
+[33mcommit 733c316c6ae82343693cee6ba523c97fdf15307d[m
+Author: yzh <yuzihao@ict.ac.cn>
+Date:   Sun Sep 20 12:10:21 2015 +0800
+
+    change the binary of nemu_assert in mm_malloc.o
+    
+    The binary of nemu_assert in all .c files has been changed from 0x82 to
+    0xd6. But I forgot the .o file.
+
+[33mcommit ee7dd1c8c9d71558a873e222550edce5c971b109[m
+Author: yzh <yuzihao@ict.ac.cn>
+Date:   Sun Sep 20 12:04:49 2015 +0800
+
+    fix the condition of Assert() in init_regex()
+    
+    This bug will lead to using a compile-error regular expression in
+    make_token(), which eventually causes segmentation fault.
+
+[33mcommit 3cf990c3f3a65508443e57f983d9cefdc1629928[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 19 02:44:43 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     02:44:43 up  4:45,  1 user,  load average: 0.00, 0.01, 0.05
+    712242d3dbcf7195008b7b13b33661e9f6d328
+
+[33mcommit 1304330a28f2e00b59396ee4e8dedf13cb97382e[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 19 02:00:49 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     02:00:49 up  4:01,  1 user,  load average: 0.01, 0.03, 0.05
+    aa3cab4f5ec83ca9231558ebf12eba37ad845a63
+
+[33mcommit c72442c57cf1f8914ce2c804262eeba3c693be1e[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 19 01:58:42 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     01:58:42 up  3:59,  1 user,  load average: 0.06, 0.05, 0.05
+    5d2f0246cb1162d287c4b1fc581a8ce0c4cd570f
+
+[33mcommit f91a190b277f426559cb0554d588eb364185e85c[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 19 01:58:40 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     01:58:40 up  3:59,  1 user,  load average: 0.07, 0.05, 0.05
+    eb501a305a1ec84d3b8ea49986221fd2f9c252d
+
+[33mcommit 1804fc7000b3d36b546910f43dcee5691e5ff3e3[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 19 01:55:02 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     01:55:02 up  3:55,  1 user,  load average: 0.05, 0.03, 0.05
+    24ed492fe914f5c14d74066cf03e458b140daca7
+
+[33mcommit d7466c42e13b13944e9791c1ac96c3809215a7eb[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 19 01:53:39 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     01:53:39 up  3:54,  1 user,  load average: 0.00, 0.01, 0.05
+    9d15b47bf042d4a1378962f9ce3cd34c31816070
+
+[33mcommit 5cf3a09e41d9d94b0b43456d610ef221e73f28b4[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 19 01:53:35 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     01:53:35 up  3:54,  1 user,  load average: 0.00, 0.01, 0.05
+    c62f88cb6280e7ca422c335d28b5f8da4c9be6ae
+
+[33mcommit 98e07e1d416267701cb85bae953445b193a299da[m
+Author: yzh <yuzihao@ict.ac.cn>
+Date:   Fri Sep 18 13:41:18 2015 +0800
+
+    change the type of `addr' member in Operant structure
+    
+    * from hwaddr_t to swaddr_t
+
+[33mcommit 9d1080b2df7d1d18003ea888f6be07fcfd078d30[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 10:32:30 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     10:32:30 up  1:12,  1 user,  load average: 0.01, 0.02, 0.05
+    527c27abec1c76729e3f358fc9daaea1140faea
+
+[33mcommit 776c0de28859849ffbff619cda8923547ffae43c[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 10:19:53 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     10:19:53 up 59 min,  1 user,  load average: 0.00, 0.01, 0.05
+    274f48813ec2767b76678f66ccc15cf85d9d60
+
+[33mcommit bfd54882be9176becd1549efbf453abdba77d1e9[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 10:19:53 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     10:19:53 up 59 min,  1 user,  load average: 0.00, 0.01, 0.05
+    d56be60148949f53bad023309fe48a78d3f6746
+
+[33mcommit 9699f02791004f62a088e4bf242237efe08f0591[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 09:49:32 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     09:49:32 up 29 min,  1 user,  load average: 0.00, 0.03, 0.05
+    74be2c63bcf416c6837d1437215fc40139396c1
+
+[33mcommit d69ea85c3b7dab4748143e5a6d2a019c6a39b2c4[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 09:46:14 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     09:46:14 up 26 min,  1 user,  load average: 0.12, 0.05, 0.05
+    d93d9f2b80ba86ba2868f32acfc726f59558c369
+
+[33mcommit 3cefda665b439b7261ec1b3c5659fef6fb844451[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 09:46:09 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     09:46:09 up 25 min,  1 user,  load average: 0.13, 0.05, 0.05
+    bd33d59df40860b84d0429cb33f18df80af7fdf
+
+[33mcommit af9b1f41fc4014e83aae71b4eb3c31a1831a903f[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 07:16:56 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     07:16:56 up  8:38,  1 user,  load average: 0.00, 0.01, 0.05
+    116f4371d9a1a98836e977fc941baeceb6f17b9a
+
+[33mcommit 6465c97eb7022ae629f7d4ce89e8a418fa1bad4c[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 07:14:04 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     07:14:04 up  8:35,  1 user,  load average: 0.01, 0.02, 0.05
+    e260adfb324437109f2e08b88832f110fecbe5e7
+
+[33mcommit 63ec23a31cfd454571dab24881b243c9b6c209ff[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 07:14:00 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     07:14:00 up  8:35,  1 user,  load average: 0.01, 0.02, 0.05
+    a7d630ec66181c43109d215f558814c6806355
+
+[33mcommit 97fca5b5d6bb3711d5985553da17a7de9c4de03f[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 07:07:37 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     07:07:37 up  8:28,  1 user,  load average: 0.03, 0.04, 0.05
+    f7b945935f3d3a4ff818e195227254a5b3672dd2
+
+[33mcommit ec93da6f3bb1eef55a8b473f0d8968e7a60039ab[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 07:07:34 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     07:07:34 up  8:28,  1 user,  load average: 0.03, 0.04, 0.05
+    106b3c907799a0ca2fe78abc4a83b0b1297e3769
+
+[33mcommit 7731d10e4fd992ea53a4964302240b5cdfbb49f8[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 07:02:21 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     07:02:21 up  8:23,  1 user,  load average: 0.00, 0.01, 0.05
+    f5e9e7f41fb674a17edd13ab5caee0f089afd250
+
+[33mcommit 71e9e7c27ee87ec79a6a6b7b3e12e4a53241bfe5[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 07:02:17 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     07:02:17 up  8:23,  1 user,  load average: 0.00, 0.01, 0.05
+    4cab5ee8e9cca031f14b30cfbf176a8387659175
+
+[33mcommit 325a50ccca2acb2d858652c8c8f0c2cbc0708568[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 06:49:11 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     06:49:11 up  8:10,  1 user,  load average: 0.05, 0.04, 0.05
+    86c291f63efd2fd935ad85741facbc1d3a32a910
+
+[33mcommit 271bf414182beb778ef8cce3c1188b5928cd7758[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 06:49:08 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     06:49:08 up  8:10,  1 user,  load average: 0.06, 0.04, 0.05
+    3c4caad6dfa93c5c27baa26fc1a0edb5da840fcf
+
+[33mcommit 0a86932d11424da56e3c386a4fcc8a6de3146358[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 06:27:36 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     06:27:36 up  7:48,  1 user,  load average: 0.03, 0.06, 0.06
+    fee0e39465c917b3dc2abb521fa9b2db2746786
+
+[33mcommit 4e7569685fbac0ee7906ad8e7122e918d2727413[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 06:27:36 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     06:27:36 up  7:48,  1 user,  load average: 0.03, 0.06, 0.06
+    cd223044a55d271d190b4a1dc79708bad35dd76f
+
+[33mcommit b58b0d834bb96764c6e8be5135a482f43a926adb[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 04:30:50 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:30:50 up  5:52,  1 user,  load average: 0.08, 0.04, 0.05
+    14816cfa5da09410108ea619d54ad7c3121f3ccc
+
+[33mcommit c344e4a09ce3a827f87750bfb1f1f302629b67f0[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 04:30:45 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:30:45 up  5:52,  1 user,  load average: 0.08, 0.04, 0.05
+    901d48b72cd71d245beb8a12ac96e015da726f4c
+
+[33mcommit e79317f8a2b5c91a02efdae39bd25bfb12951235[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 04:25:00 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:25:00 up  5:46,  1 user,  load average: 0.11, 0.06, 0.05
+    3a40d942345dc72a7466f50428ad0453ee34bde9
+
+[33mcommit 33dedba30fddeb186118743ed6ca395b6963a231[m
+Author: yzh <yuzihao@ict.ac.cn>
+Date:   Sun Sep 13 15:29:59 2015 +0800
+
+    remove unused helper declarations in shrd.h
+
+[33mcommit ddde475d0459b9283ed3a62c6cc60cbb08a015e3[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 03:19:43 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     03:19:43 up  4:41,  1 user,  load average: 0.09, 0.05, 0.06
+    3646c24d63579190a1f69b76820ba6a5329216f9
+
+[33mcommit 4a6963cd991447765832eae3dd50aa0b14f1034f[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 03:19:43 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     03:19:43 up  4:41,  1 user,  load average: 0.09, 0.05, 0.06
+    da999b78348ef20d0b0d99f8dc93b43a32531
+
+[33mcommit fb9160e0a98d6c1decefa53241ce072d7ad35228[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 03:12:48 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     03:12:48 up  4:34,  1 user,  load average: 0.06, 0.03, 0.05
+    917150c73cbd5e63dc2d61395ea00ca0b7ac0d0d
+
+[33mcommit 5d0f377acd20917f3f6bb7a09e632b88a68eca27[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 03:12:22 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     03:12:22 up  4:33,  1 user,  load average: 0.01, 0.02, 0.05
+    6051b1ed3fd0977e5506a8b27a78abd69311c2a0
+
+[33mcommit fc1b34cce1f024d1a5ac762cac446ff285fa310f[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 03:09:53 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     03:09:53 up  4:31,  1 user,  load average: 0.06, 0.03, 0.05
+    eb82c8c24ba8dacc66baf0af4219681920d0b86
+
+[33mcommit 8deabfa96e4a2bd7cc45022240f404cc8698e234[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 03:03:02 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     03:03:02 up  4:24,  1 user,  load average: 0.05, 0.03, 0.05
+    6053f107452c112831ec851c413189f28a7140df
+
+[33mcommit a8ff8e7b33434a1f796e2d39042b2956371d56de[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 03:03:02 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     03:03:02 up  4:24,  1 user,  load average: 0.05, 0.03, 0.05
+    7443ffe2f1ee013f341fa615b58d9d7ecfc1527c
+
+[33mcommit c1992e03e07108671889e51d5bcba64902e81ff9[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 02:58:01 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     02:58:01 up  4:19,  1 user,  load average: 0.00, 0.01, 0.05
+    d42832f6f752b9d71e9d1d888a54547aeeb6d49b
+
+[33mcommit adc99b340e114fcd392e21a06b7dee1c04a8adae[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 02:57:57 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     02:57:57 up  4:19,  1 user,  load average: 0.00, 0.01, 0.05
+    590aeaaeaab52f177ff20703b10a2c19722f9e38
+
+[33mcommit b1130da48e81090763af51c61ac10f7708548f1d[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 02:55:09 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     02:55:09 up  4:16,  1 user,  load average: 0.00, 0.02, 0.05
+    a291a06ac20b59ef0ca8b6ae1082b6e7b39f4d5
+
+[33mcommit c1cb83aaba39b8c4eaeb5712e5acf6923f7a5154[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 02:55:00 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     02:55:00 up  4:16,  1 user,  load average: 0.00, 0.02, 0.05
+    d0487ce03869c8648f13ee721d8d98ecfabb30d
+
+[33mcommit b1d09f611ba58916754b713ef3f457501e37405a[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 01:59:56 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     01:59:56 up  3:21,  1 user,  load average: 0.00, 0.01, 0.05
+    7d7f37f65be63c4b2f5ef5b9609cdcea27b36520
+
+[33mcommit a2811380710fdcbfa8eb37588a0c9a4abed2a472[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 01:59:49 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     01:59:49 up  3:21,  1 user,  load average: 0.00, 0.01, 0.05
+    6c617d8253438427bee25445db1d344c17eafc7c
+
+[33mcommit 8d814c275819d06a30a2a022ef3556ba1ca5f59c[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 01:58:07 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     01:58:07 up  3:19,  1 user,  load average: 0.00, 0.01, 0.05
+    e481967eaf76f9773220cceef175c186d914be91
+
+[33mcommit e3c620e208730f98559bd0bdba7631635a29f17d[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 01:57:58 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     01:57:58 up  3:19,  1 user,  load average: 0.00, 0.01, 0.05
+    7631bcc66065cd3951916a6672ef0b278fa0b4ed
+
+[33mcommit 2c781f1521c2a7c53476f965e4905860c7c5572b[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 01:38:58 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     01:38:58 up  3:00,  1 user,  load average: 0.02, 0.04, 0.05
+    c5f85d31d16551798adde76bdf0d3598f0ff5e91
+
+[33mcommit 79a485655d48aa779089fdc4cba034142f62b1a8[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:38:43 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:38:43 up  2:00,  1 user,  load average: 0.06, 0.06, 0.05
+    9a6b9bb386db4c60407c0ae8b0d9ed79b1a913cc
+
+[33mcommit 4a8dc2d1042171734241349aa1996f58dbc3c7d1[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:38:41 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:38:41 up  2:00,  1 user,  load average: 0.07, 0.06, 0.05
+    5be27e09a78e2e861dc2b566744ad367e55a24d
+
+[33mcommit b9ae441d8b57068875583e9e7dbd165e7b259061[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:37:35 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:37:35 up  1:58,  1 user,  load average: 0.20, 0.08, 0.06
+    e5b7f959493fcb059e1c756f6cec9b343e17baa1
+
+[33mcommit c4b32189d3712102cbeb71ef523b8e10c92f6cd0[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:37:33 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:37:33 up  1:58,  1 user,  load average: 0.20, 0.08, 0.06
+    96182c81942a0459d2a9f8ccaee525fce268330
+
+[33mcommit d057357d0cd713b5e0c62cf21a60503d892552a0[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:36:24 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:36:24 up  1:57,  1 user,  load average: 0.04, 0.04, 0.05
+    43e98f40b38c90549a714aa1d8c4cc00cf5d1625
+
+[33mcommit 0c3b3668cc6d3ccc5e74d67ebc11b5e5436ed4ea[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:36:22 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:36:22 up  1:57,  1 user,  load average: 0.05, 0.04, 0.05
+    bd7035686580ff4f10e85acfbb9d378a26fcbdd
+
+[33mcommit c751852bf78f995b02310a02383922ac80de7b18[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:32:13 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:32:13 up  1:53,  1 user,  load average: 0.05, 0.04, 0.05
+    2b3b12f2b94619f7f6c27d5a57772f564378936a
+
+[33mcommit e01c5ffbe236b264ac1418920bb245b13196a7e1[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:32:11 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:32:11 up  1:53,  1 user,  load average: 0.05, 0.05, 0.05
+    3674a61e7b5bc89735d06e21f30f3836d254e76e
+
+[33mcommit 1854ad3502d756f06ea01c8c57e0132e324565a0[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:31:23 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:31:23 up  1:52,  1 user,  load average: 0.11, 0.05, 0.05
+    202147b781d3b1f64b910a1a3f3ae0b2cb3d4c2a
+
+[33mcommit e8a53af6b9a9b659c90cde2e0f330ead6bdefe1f[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:31:21 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:31:21 up  1:52,  1 user,  load average: 0.12, 0.06, 0.05
+    7b49092ab509bdc980d0ff97939d67756caedc88
+
+[33mcommit 1c311b1e59df3039f78ea341e3395dc2bbf6082b[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:30:33 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:30:33 up  1:51,  1 user,  load average: 0.08, 0.04, 0.05
+    6ef968019c46f046b36d5580469a0e4f41b3215a
+
+[33mcommit 13cc08d77738698a8664d056e6ba2f5d2d986e21[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:30:31 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:30:31 up  1:51,  1 user,  load average: 0.00, 0.03, 0.05
+    41e87890c0cca2d5e7b67c3d628ed3236c030db3
+
+[33mcommit 4525929c14531dd93fad2c5246dae62b2eea1b95[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:28:23 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:28:23 up  1:49,  1 user,  load average: 0.01, 0.04, 0.05
+    2e93371f8d9c58357146238c4688a7441c8f0a2
+
+[33mcommit 53a8e87496d0f447cee195e56e71e53c5935f933[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:28:00 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:28:00 up  1:49,  1 user,  load average: 0.01, 0.04, 0.05
+    d9ffa1c07fba3da42999550d17e53b0aac6ef11
+
+[33mcommit f6b2aab430c2183a4b3e850795dae58d032e6869[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:27:57 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:27:57 up  1:49,  1 user,  load average: 0.01, 0.04, 0.05
+    fa86852ff9ce55be5c123c547ea03802d548d1da
+
+[33mcommit 63d94f997fae9164b4bff58e105a3c2eba9846a2[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:24:23 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:24:23 up  1:45,  1 user,  load average: 0.09, 0.05, 0.05
+    70fb784c04e5d3189c1af2807612e0466b78e8
+
+[33mcommit 56fabbd2a4b3faa4758299ebb70ab137e388ec72[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:24:18 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:24:18 up  1:45,  1 user,  load average: 0.10, 0.05, 0.05
+    99ef7151e204990ff7437437f2f43f47e81e1073
+
+[33mcommit e881674bdc0f5170acb39108754b7e0f138ec1a6[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:22:54 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:22:54 up  1:44,  1 user,  load average: 0.09, 0.04, 0.05
+    ea687696d564978786de1cca7c15ce384a40dda
+
+[33mcommit 9443c62c3ba231383cb7d885c81aa44921f10252[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:22:52 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:22:52 up  1:44,  1 user,  load average: 0.09, 0.04, 0.05
+    33e747c3c958ab04ce9913206282c6e2f238476a
+
+[33mcommit b602118f0f339eab5fb2c76bc354b617839d1f6e[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:17:17 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:17:17 up  1:38,  1 user,  load average: 0.06, 0.03, 0.05
+    31fde2f4c88bd7dd3822ffc55400338286260e55
+
+[33mcommit 2769549ff217297bde45fbcad3d0f827f7418c0c[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:17:04 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:17:04 up  1:38,  1 user,  load average: 0.08, 0.04, 0.05
+    2f432f826d42008f988e75eddeb155e6d76032f7
+
+[33mcommit 81ce7efcb6106000dddf36943cca1231cbf6a2d6[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:17:01 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:17:01 up  1:38,  1 user,  load average: 0.08, 0.04, 0.05
+    ec27ae34d14c46d9b4e40657db2d213eb1c1d5e6
+
+[33mcommit d725c3edfab70777f71a5658d6abf4f45dc6a41c[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:06:10 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:06:10 up  1:27,  1 user,  load average: 0.00, 0.01, 0.05
+    861899a4c19c6dae903ac4584723acc46dd17344
+
+[33mcommit 98f02250e5a68e1b5ead48c24d567cd828d0a556[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:05:06 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:05:06 up  1:26,  1 user,  load average: 0.00, 0.01, 0.05
+    a0d639b0cd2579bf2f574f7b9a5d18ab5d71af95
+
+[33mcommit 1bcf12ea4b69a66344cd8f01f9b70954c34321f9[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:04:07 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:04:07 up  1:25,  1 user,  load average: 0.00, 0.01, 0.05
+    b0312fef87cb3e56e2fbdbe9f8d6eb49ba11a5dd
+
+[33mcommit ca50d747b9a40fb426fdd25fcd1befa1b6cf2134[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sun Sep 13 00:04:05 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:04:05 up  1:25,  1 user,  load average: 0.00, 0.01, 0.05
+    3ff24954b88c7ed6f9dccb54d43395721f0d612
+
+[33mcommit de06e8f4adfc2f5cba7663af17507c5c8aa1017f[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:59:36 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:59:36 up  1:20,  1 user,  load average: 0.00, 0.01, 0.05
+    dec0933949f0081fd26c38c8ee8c6ccdf92db361
+
+[33mcommit d5577f3281c8dfa9e96816d7ae5305e07aa1ccf7[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:59:32 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:59:32 up  1:20,  1 user,  load average: 0.00, 0.01, 0.05
+    ec0f6c3f26a983d48436c25d6953f24ab7169cf
+
+[33mcommit 41254924368513b9140fadaa068f4a653feeb148[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:58:33 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:58:33 up  1:19,  1 user,  load average: 0.00, 0.01, 0.05
+    e49d4b0ca842749c1da5e4ec91f18f2c5939d958
+
+[33mcommit 13f6991d0e57441cb4f1c9cc8e014fc97d43ec2b[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:58:28 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:58:28 up  1:19,  1 user,  load average: 0.00, 0.01, 0.05
+    458c5fd79b776f28fb9860bce0985526d6443b94
+
+[33mcommit e82f48ff8f6ac01e1ff6908c4eb2ed86c196e2da[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:57:29 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:57:29 up  1:18,  1 user,  load average: 0.00, 0.02, 0.05
+    ceaf2874a110caba19ef5222a5d98465481e4566
+
+[33mcommit 9f2d955392ff9857b5cde33d370c8947d7df8cf6[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:57:27 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:57:27 up  1:18,  1 user,  load average: 0.00, 0.02, 0.05
+    518afa47c37cf445a10856f44afccddc501bf16
+
+[33mcommit 826c667c61b4a7256b1ea3c128ec0f24993f26d6[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:54:29 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:54:29 up  1:15,  1 user,  load average: 0.01, 0.04, 0.05
+    56693dbd8c6e28c194408268504624c11b71a85d
+
+[33mcommit aaf27019ba91e9d556486b57cf02f81e6abb75ea[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:54:25 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:54:25 up  1:15,  1 user,  load average: 0.01, 0.04, 0.05
+    12e8b84b5a652dfc3728f82629ae93c1a9a471fe
+
+[33mcommit 62171ad9cf6b9c0c6065ae0d01a65889ad58b8ec[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:53:46 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:53:46 up  1:15,  1 user,  load average: 0.02, 0.04, 0.05
+    4bfffdcfb8e85f0113f271d81c4eab00244c450b
+
+[33mcommit e07f138260a2e396ed1181ef1aa8d62ba019402b[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:53:43 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:53:43 up  1:15,  1 user,  load average: 0.02, 0.04, 0.05
+    2ac929741e1af3ce24db945ac5fa63fac366f4f1
+
+[33mcommit 93c633ae0b61b53e5ca5d6e585629c6b056fcce1[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:52:05 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:52:05 up  1:13,  1 user,  load average: 0.02, 0.04, 0.05
+    3369592b9b836422e62870316bb37a6a079b1d3
+
+[33mcommit cd213fffafa80609c7e49887649f155c2e728ec2[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:52:02 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:52:02 up  1:13,  1 user,  load average: 0.02, 0.04, 0.05
+    bdb51df78697df16cb25ec219f2590a18be8c534
+
+[33mcommit 43c76e25e08631f8330d63b299feca7cc5371138[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:50:43 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:50:43 up  1:12,  1 user,  load average: 0.06, 0.05, 0.05
+    56191429a542ee9ec1a3557fe81ff98c901cac7
+
+[33mcommit 3cf971bf8ac38ecdc1316c5d351fc26bcf69d6d0[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:50:40 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:50:40 up  1:12,  1 user,  load average: 0.07, 0.05, 0.05
+    342891413b7a2fb72ac0d492b10b26f53c8556
+
+[33mcommit db65032f7b089f5e47c4ce2c6366c249ff1c10ec[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:49:04 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:49:04 up  1:10,  1 user,  load average: 0.13, 0.05, 0.05
+    842e29de8d1769d18a3880ec10da3ceef270e376
+
+[33mcommit 6438cab6b16a7364ed2266b25d88678162ceb8f8[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:49:01 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:49:01 up  1:10,  1 user,  load average: 0.13, 0.05, 0.05
+    93ddaf67450174b43a894be4a53a6029ccf3dc49
+
+[33mcommit 911bb3ef87413493957afd0ff9da01b15517a9ff[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:48:10 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:48:10 up  1:09,  1 user,  load average: 0.00, 0.02, 0.05
+    fe3f3a32457bcd6f81e36f617570f73be7f86a7f
+
+[33mcommit b7e150b46ccead6b0ab97d84c907780b8f622f78[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:48:07 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:48:07 up  1:09,  1 user,  load average: 0.00, 0.02, 0.05
+    a59dcb94f27734b9e6b255574d84af02215a568
+
+[33mcommit 37223523b54104d62e9cc3fe5ac5dd9f3df9b519[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:38:12 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:38:12 up 59 min,  1 user,  load average: 0.15, 0.06, 0.06
+    7c9cf2f449ccbe0a61ecaffdcd6835e11357c000
+
+[33mcommit 13663e1dbd184caccc16123e94509449ee9b68d1[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:38:07 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:38:07 up 59 min,  1 user,  load average: 0.16, 0.06, 0.06
+    370681802a69590e9b5cfa2f1e25f19aafaaaba7
+
+[33mcommit 35d4f94ca82447a47806484b1d37cfe261afd177[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:34:29 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:34:29 up 55 min,  1 user,  load average: 0.03, 0.04, 0.05
+    160f1b5b292d34c3b613a902a12a41642b7030c
+
+[33mcommit c7e1567253a1483547b398b5c93b1d3c1e44f010[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 23:32:39 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:32:39 up 54 min,  1 user,  load average: 0.00, 0.02, 0.05
+    f5deb7a0c229068221cf2c339014755ec2dac24
+
+[33mcommit b128cdfe8a5f342bf38def3a07a3307c29548c88[m
+Author: yzh <yuzihao@ict.ac.cn>
+Date:   Sun Sep 13 01:30:37 2015 +0800
+
+    fix some helpers' names
+
+[33mcommit 8bb7d320700f11778944340fae7f88aef9b7c66c[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 03:27:19 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     03:27:19 up  4:35,  1 user,  load average: 0.08, 0.03, 0.05
+    fb35be0f7a9a909332ccefff88d7d2c2d65d7437
+
+[33mcommit af1dfbd1d2d13d901f01c1bc6c48ace52aea91ec[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 01:57:21 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     01:57:21 up  3:06,  1 user,  load average: 0.00, 0.01, 0.05
+    cb4fe651aff224853205ca089dd3dfb362bb95f8
+
+[33mcommit 49231eb78ca5b45540b368b1894a286ce4272d76[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 01:50:19 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     01:50:19 up  2:58,  1 user,  load average: 0.09, 0.03, 0.05
+    fb54b704420ce9f78a8dbf7b47a43a752686039f
+
+[33mcommit 1605f2c2ffb7db65d86a4ad5388f178c3c0f87ab[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 12 00:09:26 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     00:09:26 up  1:18,  1 user,  load average: 0.00, 0.01, 0.05
+    45e69d886df343f365a0d28472d76205c3f128e6
+
+[33mcommit e98e3ae4a35614c46581f660afaba82cad938007[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Fri Sep 11 23:40:27 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     23:40:27 up 49 min,  1 user,  load average: 0.08, 0.03, 0.05
+    fc84d69b1e9001e54fc77f6574d64c33764485b3
+
+[33mcommit 7c8ea87c90c940807d1cb4a1db9a266c51970843[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Fri Sep 11 09:24:27 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     09:24:27 up  1:32,  1 user,  load average: 0.00, 0.01, 0.05
+    32500f6673532e1284ee82ca2c4e62f5fa948f58
+
+[33mcommit 9c78a52eae478032857d32acee4afbfa5aff1a3d[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Fri Sep 11 09:06:17 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     09:06:17 up  1:13,  1 user,  load average: 0.08, 0.03, 0.05
+    f5ee6a7834f234c9b4a03c6cd8c9c38f2431ceca
+
+[33mcommit a324fd6f943a35e4edd36dcc8edf6ca6a153f18a[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Thu Sep 10 05:11:20 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:11:20 up  1:06,  1 user,  load average: 0.25, 0.10, 0.07
+    d798b06d9177d4bf61c95505101553acb18b1d0e
+
+[33mcommit 26c09ffef5a82351719959d42b18f505922662d3[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Thu Sep 10 05:11:20 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:11:20 up  1:06,  1 user,  load average: 0.25, 0.10, 0.07
+    d9463a11d334eb79a5c9d2efbc0f82cf8fde0352
+
+[33mcommit 07e0be5b81dcb6d34013d0c4f8b226f164456d4d[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Thu Sep 10 05:10:12 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:10:12 up  1:05,  1 user,  load average: 0.30, 0.09, 0.06
+    60007f2d55e8d01e6ea6984c567153cd66e4f4dd
+
+[33mcommit b6eb67b6b5bf38b934f2db10ec0b01a2e0114beb[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Thu Sep 10 05:10:12 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:10:12 up  1:05,  1 user,  load average: 0.30, 0.09, 0.06
+    4c2abcf7e745427d7ec091d6b69038b2fa2846f0
+
+[33mcommit 77ef31459b584c4c18bcf003247bf3461652df61[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Thu Sep 10 05:08:59 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:08:59 up  1:04,  1 user,  load average: 0.06, 0.03, 0.05
+    39de2fdeb7d003ea489624a58ea9e8f65b8fdcde
+
+[33mcommit 2ced466ec6147a3a08c8cd3d1341e8e174c4e3eb[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Thu Sep 10 05:08:55 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:08:55 up  1:03,  1 user,  load average: 0.06, 0.03, 0.05
+    1b41a0ba3872af43391f4f9fc3b3635dfd2cd4
+
+[33mcommit 1594d5ef1e2f4e86fae7e1f1af5f00d037117549[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Thu Sep 10 04:47:02 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:47:02 up 42 min,  1 user,  load average: 0.06, 0.03, 0.04
+    2f5a2286e9cca2f168306a5d0616499f04074a4
+
+[33mcommit d4094c876916350331b423c3ca19cafef2520016[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Thu Sep 10 04:46:56 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:46:56 up 42 min,  1 user,  load average: 0.07, 0.04, 0.04
+    77f304ea84e52f7dea6c40e7e266b8091736728a
+
+[33mcommit c4572f6e5629390bd5a9f72d7b375e9991509965[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 11:10:10 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     11:10:10 up 21 min,  1 user,  load average: 0.11, 0.04, 0.05
+    384864506c1605be3d533a871ef75db090de26c1
+
+[33mcommit 149ceaf14bc1052049a7c04a25159891e990a4db[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 11:10:10 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     11:10:10 up 21 min,  1 user,  load average: 0.11, 0.04, 0.05
+    d42dd3e81d7b82a663612a99f1e95fdc95c2f369
+
+[33mcommit 61912e5ead5ef15276ebed1ad52217c2708caec8[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 11:00:53 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     11:00:53 up 12 min,  1 user,  load average: 0.04, 0.04, 0.04
+    c3d1dd8c7e540f9c3513519ae1c2391e3744f9d
+
+[33mcommit 36b5f145ff0bf5a0566f5ab2d543d776ce2dfea0[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 05:03:58 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:03:58 up  1:30,  1 user,  load average: 0.04, 0.03, 0.05
+    f338da2f21cde860a2fc6056b19adba3fa5e829
+
+[33mcommit 253a93876316336afe57a11cafdd1ec42d6b3b44[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 05:03:58 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:03:58 up  1:30,  1 user,  load average: 0.04, 0.03, 0.05
+    b7ed12b054c79905c2de1af2eb05c315a4a22a06
+
+[33mcommit 815865356c3e3c25e4a4ef7bbf59699f9b622b5e[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 05:03:15 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:03:15 up  1:29,  1 user,  load average: 0.08, 0.03, 0.05
+    a0cb7e03e22e40014d6ce5fbb832b95139de969
+
+[33mcommit ba3bf8e139da06b78fbc499db0ca0722c3f60efb[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 05:03:15 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:03:15 up  1:29,  1 user,  load average: 0.08, 0.03, 0.05
+    dc8483e4f6c7e73ef13aa3bb60d8c22eefd5f4d6
+
+[33mcommit 3681c654c308d28ec5d2d595307ecc01e61ffeec[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 05:01:21 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:01:21 up  1:27,  1 user,  load average: 0.00, 0.01, 0.05
+    a626cce7708a2d30adceed3497ae08bc5109dc16
+
+[33mcommit b3005e4b6916a927f2b4352fb03e1c3c06eb8935[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 05:01:13 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:01:13 up  1:27,  1 user,  load average: 0.00, 0.01, 0.05
+    ec51ff0664008f271fe67a841660a9ecc11dabb
+
+[33mcommit 8c6cc2b6c7d69dd05085fac39c550f0d3da41e06[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 04:21:08 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:21:08 up 47 min,  1 user,  load average: 0.00, 0.01, 0.04
+    14468031c664ef00c5125e25410703fd4f0eb5b
+
+[33mcommit d0b365b59e1b3550d0cec9ac12566cd52840d815[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 04:21:08 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:21:08 up 47 min,  1 user,  load average: 0.00, 0.01, 0.04
+    808301b7734bc0ec97dcfd5934482b8b6e9f39
+
+[33mcommit 6a8b8126e1047f8946542a2c377f220d18972148[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 04:20:20 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:20:20 up 46 min,  1 user,  load average: 0.00, 0.01, 0.04
+    f6780a4c9907c1128d1fe761af11c838681585e
+
+[33mcommit 25a4fcd4941e5ed324d553084db1d102697b61d6[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 04:20:14 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:20:14 up 46 min,  1 user,  load average: 0.00, 0.01, 0.04
+    5722b622b52dd38c43747186754c7d7f4e774079
+
+[33mcommit a8a146e8895c954812f2be25b68626dc0ecaa126[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 04:18:29 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:18:29 up 44 min,  1 user,  load average: 0.00, 0.01, 0.04
+    b1937bd3f7194f531e56c00d25d0a567dc5aeec2
+
+[33mcommit 1838f9258f452ec3575f59b745267b4c1ac5cb27[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 04:18:29 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:18:29 up 44 min,  1 user,  load average: 0.00, 0.01, 0.04
+    fa5aa6502934c0a6567a9dd02b9b890a19d57789
+
+[33mcommit f3d2490e74a260335b47142ab6468ff57fffdbf6[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 04:15:57 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:15:57 up 42 min,  1 user,  load average: 0.00, 0.01, 0.04
+    14bea5e67445a484226ddbbfe06a8a052e2c9d1c
+
+[33mcommit 4d23365ac8c7052989cc98172a4cf7cff3de95f7[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Tue Sep 8 04:15:50 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:15:50 up 41 min,  1 user,  load average: 0.00, 0.01, 0.04
+    489dfff3bd9b59448de4894d7193be4d4fc94b
+
+[33mcommit 08f22ec291b2eb34b11d255595b6d80c5b82c547[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Mon Sep 7 07:36:38 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     07:36:38 up 41 min,  1 user,  load average: 0.00, 0.01, 0.05
+    cd3de03cb8a51e05807e2a35d832cfb1ad63447a
+
+[33mcommit 07b35b807e1acd65777709244c6e7598dc09273e[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Mon Sep 7 07:02:46 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     07:02:46 up 7 min,  1 user,  load average: 0.00, 0.04, 0.05
+    d5144e454806554d62f64f11eebc293654bc7a8d
+
+[33mcommit 087f88beb76e39415fc48b6b19fcd9a6c8cbf9f5[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Mon Sep 7 06:08:21 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     06:08:21 up  2:34,  1 user,  load average: 0.08, 0.03, 0.05
+    eaa9f7817eaba44ed500bfe1c8f400f57ebde2b5
+
+[33mcommit b35198e26ca6fce53376f51d88f79a94610f8584[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Mon Sep 7 06:08:17 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     06:08:17 up  2:34,  1 user,  load average: 0.08, 0.03, 0.05
+    c1ffe41bc814bab69d6ba722087af32986cc3f
+
+[33mcommit 30bdd206efce72d2d949335754f39f2181f63f00[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Mon Sep 7 05:25:53 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:25:53 up  1:52,  1 user,  load average: 0.08, 0.03, 0.05
+    a3aad3aada6520deb21afbb7f084f43421d803fe
+
+[33mcommit 13a865ccbc6bcfbff28dd1a59672bc0ce5a4c2d1[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Mon Sep 7 05:25:53 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:25:53 up  1:52,  1 user,  load average: 0.08, 0.03, 0.05
+    8500e20ac1da241739b25329ca6b76ff7f7160d
+
+[33mcommit d76463e777fd9ec209a6705e158226b4dce2e01a[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Mon Sep 7 04:41:28 2015 -0400
+
+    >  run
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:41:28 up  1:07,  1 user,  load average: 0.16, 0.05, 0.06
+    64def27b6906d52a719451b5d14b31e633e07c
+
+[33mcommit b1c8f0c7d4b2d4e70cc20d3512a980a211f93a63[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Mon Sep 7 04:41:27 2015 -0400
+
+    >  compile NEMU
+    141220111
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:41:27 up  1:07,  1 user,  load average: 0.16, 0.05, 0.06
+    e760cc52f32ba12f2225277d37bfe6b98b266b98
+
+[33mcommit 907037c581c77ed0e5fdfd6df5db97bda5912fc9[m
+Author: 141220111-Wei Yue <316382810@qq.com>
+Date:   Sat Sep 5 05:08:10 2015 -0400
+
+    hdhd
+
+[33mcommit 3aa8ee637134bba04d42c8f5e4a8b9e07a56ce32[m
+Author: 141220111-Wei Yue <316382810@qq.com>
+Date:   Sat Sep 5 05:06:16 2015 -0400
+
+    banna
+
+[33mcommit 76a4beb97f9c7802f8d7ae8848e065b44e24bd0e[m
+Author: 141220111-Wei Yue <316382810@qq.com>
+Date:   Sat Sep 5 05:05:40 2015 -0400
+
+    nan
+
+[33mcommit ede7b8bed8df6e455267d9816252eee882cb06c3[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 5 05:04:58 2015 -0400
+
+    >  compile NEMU
+    141220000
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:04:58 up  2:08,  3 users,  load average: 0.12, 0.09, 0.06
+    4917bc2b446626f57f42ed6bcd07062785437bf5
+
+[33mcommit 9a3beb45f5b4428c6b117c99be17201098ae5f2a[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 5 05:00:49 2015 -0400
+
+    >  compile NEMU
+    141220000
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     05:00:49 up  2:04,  3 users,  load average: 0.10, 0.06, 0.05
+    770d81a73cde47badbc745f91f6bca562e59d79
+
+[33mcommit 777536488d4a4e14807be785d6b1e5100d1682b4[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 5 04:58:18 2015 -0400
+
+    >  run
+    141220000
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:58:18 up  2:02,  3 users,  load average: 0.20, 0.07, 0.06
+    e8a1bd8382845dfc6c305b281959a66032585e78
+
+[33mcommit 5fff549613e8a4ecc93b9c2929cdf4063550dbc3[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 5 04:58:17 2015 -0400
+
+    >  compile NEMU
+    141220000
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:58:18 up  2:02,  3 users,  load average: 0.20, 0.07, 0.06
+    c35d333accc635f9336d76cdf32ffdc5d7177a1b
+
+[33mcommit bb9166dcb7c752fe173dd71e62967b3fda32cc66[m
+Author: tracer-ics2015 <tracer@njuics.org>
+Date:   Sat Sep 5 04:57:45 2015 -0400
+
+    >  compile NEMU
+    141220000
+    anan
+    Linux debian 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt11-1+deb8u3 (2015-08-04) i686 GNU/Linux
+     04:57:45 up  2:01,  3 users,  load average: 0.09, 0.04, 0.05
+    f5ebd4a5381c11be1858cb6ca9390408ca30735a
+
+[33mcommit 54521727a198f53e2f5a66f18e1cb89cb965d662[m
+Author: yzh <yuzihao@ict.ac.cn>
+Date:   Thu Sep 3 10:42:35 2015 +0800
+
+    fix USERPROG to /obj/testcase/mov in Makefile
+
+[33mcommit 5a6ae9ee1e8d200a500beae3c411ab1b0ae5ca70[m
+Author: yzh <yuzihao@ict.ac.cn>
+Date:   Mon Aug 31 02:24:44 2015 +0800
+
+    modify README.md
+    
+    add the URL of the forked repository of the typing game
+
+[33mcommit b7183428a392b4efcdc079914b93573fd9af4499[m
+Author: yzh <yuzihao@ict.ac.cn>
+Date:   Mon Aug 31 02:14:45 2015 +0800
+
+    first commit
